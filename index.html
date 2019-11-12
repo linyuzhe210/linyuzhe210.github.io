@@ -1,494 +1,80 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>林煜哲 | 深圳迷你玩实习履历</title>
-    <style type="text/css">
-        @media print {
-            .no-print {
-                display: none
-            }
-        }
-        
-        @page {
-            size: auto;
-            margin: 10mm
-        }
-        
-        .container {
-            zoom: 1;
-            margin: 0 auto;
-            padding: 0 0 40px 0;
-            background: #fff;
-            border: solid #d22042;
-            border-width: 2px 0 0 0;
-            text-align: left
-        }
-        
-        .container:before {
-            content: "";
-            display: table
-        }
-        
-        .container:after {
-            content: "";
-            display: table;
-            clear: both
-        }
-        
-        body {
-            font-family: 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
-            color: #1d1313;
-            font-weight: 300
-        }
-        
-        h1 {
-            font-family: 'Old Standard TT', serif;
-            margin: 0;
-            padding: 0;
-            font-size: 36px;
-            letter-spacing: -1px;
-            font-weight: 400
-        }
-        
-        h2 {
-            font-family: 'Old Standard TT', serif;
-            margin: 0;
-            padding: 0;
-            font-size: 18px;
-            font-style: italic;
-            letter-spacing: -1px;
-            font-weight: 400
-        }
-        
-        h3 {
-            font-family: 'Old Standard TT', serif;
-            margin: 0;
-            padding: 0 0 .5em;
-            font-size: 150%;
-            font-style: italic;
-            font-weight: 400
-        }
-        
-        h4 {
-            font-family: 'Old Standard TT', serif
-        }
-        
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none
-        }
-        
-        ul dl {
-            margin: .3em 0 0;
-            padding: 0;
-            width: 100%
-        }
-        
-        ul dl dt {
-            font-family: 'Old Standard TT', serif;
-            font-size: 100%
-        }
-        
-        ul dl dd {
-            margin: 0 0 1em;
-            padding: 0 2em 0 0;
-            font-size: .8em;
-            line-height: 1.5em
-        }
-        
-        ul li {
-            margin: 0;
-            padding: 0
-        }
-        
-        ul li p {
-            margin: 1em .5em;
-            line-height: 120%
-        }
-        
-        .resume {
-            position: relative;
-            padding: 10px 20px
-        }
-        
-        blockquote {
-            margin: 0;
-            padding: 0;
-            line-height: 1.4em;
-            text-align: right
-        }
-        
-        blockquote a {
-            color: #1d1313;
-            -webkit-transition: color .3s linear;
-            -moz-transition: color .3s linear;
-            -ms-transition: color .3s linear;
-            -o-transition: color .3s linear;
-            transition: color .3s linear
-        }
-        
-        blockquote a:hover {
-            color: #d22042
-        }
-        
-        a {
-            color: #d22042
-        }
-        
-        a[href$='.pdf'] {
-            display: inline-block;
-            background: #1d1313;
-            color: #fff;
-            padding: 6px 12px;
-            margin-bottom: 6px;
-            text-decoration: none
-        }
-        
-        hr {
-            display: block;
-            position: relative;
-            padding: 0;
-            margin: 18px auto;
-            width: 100%;
-            clear: both;
-            border: none;
-            border-top: 1px solid #ccc;
-            font-size: 1px;
-            line-height: 0;
-            overflow: visible;
-            page-break-after: avoid
-        }
-        
-        hr:nth-of-type(1) {
-            margin-top: 32px
-        }
-        
-        p {
-            margin: .6em 0 16px;
-            padding: 0;
-            display: block;
-            font-size: 104%;
-            line-height: 24px
-        }
-        
-        ol {
-            margin: 0;
-            padding: 0 0 .75em;
-            width: 84%;
-            display: inline-block
-        }
-        
-        ol li {
-            margin: 0 0 0 1em;
-            padding: 0;
-            width: 100%;
-            float: left;
-            list-style: none;
-            line-height: 24px;
-            font-size: 14px
-        }
-        
-        dl {
-            display: inline-block;
-            width: 75%;
-            margin: 0;
-            padding: 0
-        }
-        
-        dl dt {
-            margin: 0;
-            padding: 0;
-            font-size: 140%
-        }
-        
-        dl dd {
-            margin: 0 0 1.5em;
-            padding: 0;
-            font-size: 80%;
-            line-height: 1.4em
-        }
-        
-        dl strong {
-            display: block
-        }
-        
-        dl em {
-            display: block;
-            font-size: 110%;
-            margin: .15em 0 .5em;
-            font-style: bold
-        }
-        
-        #footer {
-            display: none
-        }
-        
-        #footer+p {
-            width: 100%;
-            font-size: 11px;
-            text-align: center
-        }
-        
-        @media screen {
-            body {
-                padding: 0
-            }
-            .container {
-                width: 100%
-            }
-        }
-        
-        @media (min-width:1000px) {
-            .container {
-                width: 100%
-            }
-            .resume {
-                margin: 0 auto;
-                padding: 40px 50px;
-                width: 912px
-            }
-            blockquote {
-                top: 40px;
-                right: 50px;
-                position: absolute
-            }
-            h1 {
-                margin-top: 0;
-                font-size: 44px;
-                text-transform: uppercase;
-                letter-spacing: 3px;
-                font-weight: 400
-            }
-            h2 {
-                text-transform: uppercase;
-                font-style: italic;
-                letter-spacing: 2px;
-                font-weight: 400
-            }
-            h3 {
-                float: left;
-                width: 16%
-            }
-            h3~p {
-                float: left;
-                margin-left: 16%
-            }
-            h3+p {
-                margin-left: inherit;
-                float: left;
-                width: 84%
-            }
-            ul li {
-                width: 28%;
-                float: left
-            }
-            ul dl dt {
-                font-size: 122%;
-                font-weight: 400;
-                margin-bottom: .75em
-            }
-            ul dl dd {
-                padding: 0 4em 0 0
-            }
-            ol {
-                float: left;
-                margin: .6em 0 0
-            }
-            ol li {
-                width: 33%;
-                margin: 0
-            }
-            ol li:nth-child(3n) {
-                width: 34%
-            }
-            ol li:nth-child(1) {
-                border-top: none
-            }
-            ol li:nth-child(2) {
-                border-top: none
-            }
-            ol li:nth-child(3) {
-                border-top: none
-            }
-            dl {
-                margin: .5em 0 0
-            }
-            dl strong {
-                float: right;
-                margin-top: -2em
-            }
-            dl em {
-                font-size: 130%;
-                font-style: normal
-            }
-        }
-        
-        @media (max-width:1000px) {
-            blockquote {
-                top: 25px;
-                right: 50px;
-                position: absolute
-            }
-            h1 {
-                margin-top: .5em
-            }
-            ol {
-                margin: 0 0 0 2em;
-                padding-bottom: 0;
-                width: 100%
-            }
-            ol li {
-                width: 33%;
-                margin: 0
-            }
-            ol li:nth-child(1) {
-                border-top: none
-            }
-            ol li:nth-child(2) {
-                border-top: none
-            }
-            ul li {
-                width: 33%;
-                float: left
-            }
-            p {
-                margin-left: 25px;
-                font-size: 14px;
-                line-height: 20px
-            }
-            p strong {
-                font-size: 17px;
-                line-height: 24px
-            }
-            p em {
-                font-size: 17px;
-                line-height: 24px
-            }
-        }
-        
-        @media (max-width:625px) {
-            ul li {
-                width: 100%
-            }
-            ul br:nth-of-type(1) {
-                display: none
-            }
-            ul a {
-                line-height: 130%
-            }
-            blockquote {
-                float: right;
-                position: static
-            }
-            p {
-                margin-left: 5px;
-                font-size: 12px;
-                line-height: 16px
-            }
-            p strong {
-                font-size: 14px;
-                line-height: 20px
-            }
-            p em {
-                font-size: 14px;
-                line-height: 20px
-            }
-            ol li {
-                width: 50%;
-                margin: 0;
-                font-size: 12px
-            }
-        }
-        
-        @media print {
-            .container {
-                border-top: none
-            }
-            .not-printed {
-                display: none
-            }
-            a {
-                text-decoration: none;
-                color: #000
-            }
-        }
-    </style>
+<meta charset="utf-8" />
+
+<title>林煜哲 | 我的世界中国版开发者 &amp; 大四学生</title>
+<style type="text/css">
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:0.67em 0}h2{font-size:1.5em;margin:0.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:0.83em;margin:1.67em 0}h6{font-size:0.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}body.pdf{color:#000}body.pdf a{text-decoration:none;color:#000}body.pdf .container{width:1000px;margin:0 auto;padding:0;background:none;border:none;border-width:8px 0 2px 0;text-align:left}body.pdf .resume{position:relative;padding:40px 80px}body.pdf a[href$='.pdf']{display:none}body.pdf h1{letter-spacing:0;margin-top:0;font-size:48px;text-transform:uppercase;font-weight:normal}body.pdf h2{letter-spacing:0;text-transform:uppercase;font-style:italic;font-weight:normal}body.pdf h3{float:left;width:16%;font-style:normal}body.pdf h3~p{float:left;margin-left:16%}body.pdf h3+p{margin-left:inherit;float:left;width:84%}body.pdf blockquote{top:40px;right:50px;position:absolute}body.pdf ul li{width:28%;float:left}body.pdf ul dl{margin:0;padding:0.3em 0 0}body.pdf ul dl dt{font-size:122%;font-weight:normal;margin:0 0 0.75em}body.pdf ul dl dd{padding:0 4em 0 0}body.pdf ol{float:left;width:84%;margin:0.7em 0 0}body.pdf ol li{width:33%;margin:0}body.pdf ol li:nth-child(3n){width:34%}body.pdf ol li:nth-child(1),body.pdf ol li:nth-child(2),body.pdf ol li:nth-child(3){border-top:none}body.pdf dl{margin:0.7em 0 0}body.pdf dl strong{float:right;margin-top:-2em}body.pdf dl em{font-size:130%;font-style:normal}@import url("http://fonts.googleapis.com/css?family=OldStandardTT");@import url("http://fonts.googleapis.com/css?family=OpenSans");.container:before,.container:after{content:"";display:table}.container:after{clear:both}.container{zoom:1}body{font-family:'Open Sans','Myriad Pro','Myriad',sans-serif;color:#1d1313;font-weight:300}h1,h2,h3,h4,ul dl dt{font-family:'Old Standard TT',serif}.container{margin:0 auto;padding:0 0 40px 0;background:#fff;border:solid #d22042;border-width:2px 0 0 0;text-align:left}.resume{position:relative;padding:10px 20px}blockquote a{color:#1d1313;-webkit-transition:color 0.3s linear;-moz-transition:color 0.3s linear;-ms-transition:color 0.3s linear;-o-transition:color 0.3s linear;transition:color 0.3s linear}blockquote a:hover{color:#d22042}a{color:#d22042}a[href$='.pdf']{display:inline-block;background:#1d1313;color:#fff;padding:6px 12px;margin-bottom:6px;text-decoration:none}blockquote{margin:0;padding:0;line-height:1.4em;text-align:right}hr:nth-of-type(1){margin-top:32px}hr{display:block;position:relative;padding:0;margin:18px auto;width:100%;clear:both;border:none;border-top:1px solid #ccc;font-size:1px;line-height:0;overflow:visible;page-break-after:avoid}h1{margin:0;padding:0;font-size:36px;letter-spacing:-1px;font-weight:normal}h2{margin:0;padding:0;font-size:18px;font-style:italic;letter-spacing:-1px;font-weight:normal}h3{margin:0;padding:0 0 0.5em;font-size:150%;font-style:italic;font-weight:normal}p{margin:0.6em 0 16px;padding:0;display:block;font-size:104%;line-height:24px}ul{margin:0;padding:0;list-style:none}ul li{margin:0;padding:0}ul li p{margin:1em 0.5em;line-height:120%}ul dl{margin:0.3em 0 0;padding:0;width:100%}ul dl dt{font-size:100%}ul dl dd{margin:0 0 1em;padding:0 2em 0 0;font-size:0.8em;line-height:1.5em}ol{margin:0;padding:0 0 0.75em;width:84%;display:inline-block}ol li{margin:0 0 0 1em;padding:0;width:100%;float:left;list-style:none;line-height:24px;font-size:14px}dl{display:inline-block;width:75%;margin:0;padding:0}dl dt{margin:0;padding:0;font-size:140%}dl dd{margin:0 0 1.5em;padding:0;font-size:80%;line-height:1.4em}dl strong{display:block}dl em{display:block;font-size:110%;margin:0.15em 0 0.5em;font-style:bold}#footer{display:none}#footer + p{width:100%;font-size:11px;text-align:center}@media screen{body{padding:0}.container{width:100%}}@media (min-width:1000px){.container{width:100%}.resume{margin:0 auto;padding:40px 50px;width:912px}blockquote{top:40px;right:50px;position:absolute}h1{margin-top:0;font-size:44px;text-transform:uppercase;letter-spacing:3px;font-weight:normal}h2{text-transform:uppercase;font-style:italic;letter-spacing:2px;font-weight:normal}h3{float:left;width:16%}h3 ~ p{float:left;margin-left:16%}h3 + p{margin-left:inherit;float:left;width:84%}ul li{width:28%;float:left}ul dl dt{font-size:122%;font-weight:normal;margin-bottom:0.75em}ul dl dd{padding:0 4em 0 0}ol{float:left;margin:0.6em 0 0}ol li{width:33%;margin:0}ol li:nth-child(3n){width:34%}ol li:nth-child(1),ol li:nth-child(2),ol li:nth-child(3){border-top:none}dl{margin:0.5em 0 0}dl strong{float:right;margin-top:-2em}dl em{font-size:130%;font-style:normal}}@media (max-width:1000px){blockquote{top:25px;right:50px;position:absolute}h1{margin-top:0.5em}ol{margin:0 0 0 2em;padding-bottom:0;width:100%}ol li{width:33%;margin:0}ol li:nth-child(1),ol li:nth-child(2){border-top:none}ul li{width:33%;float:left}p{margin-left:25px;font-size:14px;line-height:20px}p strong,p em{font-size:17px;line-height:24px}}@media (max-width:625px){ul li{width:100%}ul br:nth-of-type(1){display:none}ul a{line-height:130%}blockquote{float:right;position:static}}@media (max-width:625px){p{margin-left:5px;font-size:12px;line-height:16px}p strong,p em{font-size:14px;line-height:20px}ol li{width:50%;margin:0;font-size:12px}}@media print{.container{border-top:none}.not-printed{display:none}a{text-decoration:none;color:#000}}@page{size:auto;margin:10mm}@media screen and (min-width:37.5em){body{padding:2em 0}blockquote{top:10px;right:50px;position:absolute}h1{margin-top:0.5em}ol{margin:0 0 0 1em}ol li{width:50%;margin:0}ol li:nth-child(1),ol li:nth-child(2){border-top:none}}@media screen and (min-width:57em){.container{width:960px}.resume{position:relative;padding:40px 50px}blockquote{top:40px;right:50px;position:absolute}h1{margin-top:0;font-size:48px;text-transform:uppercase;letter-spacing:3px;font-weight:normal}h2{text-transform:uppercase;font-style:italic;letter-spacing:2px;font-weight:normal}h3{float:left;width:16%}h3~p{float:left;margin-left:16%}h3+p{margin-left:inherit;float:left;width:84%}ul li{width:28%;float:left}ul dl dt{font-size:122%;font-weight:normal;margin-bottom:0.75em}ul dl dd{padding:0 4em 0 0}ol{float:left;width:84%;margin:0.6em 0 0}ol li{width:33%;margin:0}ol li:nth-child(3n){width:34%}ol li:nth-child(1),ol li:nth-child(2),ol li:nth-child(3){border-top:none}dl{margin:0.5em 0 0}dl strong{float:right;margin-top:-2em}dl em{font-size:130%;font-style:normal}}
+</style>
+  <style>
+    a[href$='.pdf'] {
+      display: none;
+    }
+  </style>
 </head>
 
-<body>
-    <div class="container">
-        <div class="resume">
-            <h1 id="-">林煜哲</h1>
-            <h2 id="-">深圳迷你玩实习履历</h2>
-            <hr>
-            <h3 id="-">技术</h3>
-            <blockquote>联系方式
-                <br> (+86) 18650812250
-                <br> (+886) 984294774
-                <br> 51151153@qq.com
-            </blockquote>
-            <ol>
-                <li>Minecraft组件包内容开发</li>
-                <li>Indesign</li>
-                <li>After Effect</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>Html</li>
-                <li>Css</li>
-            </ol>
-            <hr>
-            <h3 id="-">经历</h3>
-            <p><strong>铭传大学金门分部电台网站建置及维护</strong> <em>策划、开发</em> <strong>2016.11 ~ 2017.3</strong>
-                <br> 开发铭传大学金门分部对外电台形象网站，集合CMS内容管理后台面板、多平台线上收听支援、Markdown格式的新闻稿发布与展示功能
-                <br> <strong>技术环境</strong>：JavaScript、Html、Css、Git、C#、Dotnet
-                <br> <strong>标签</strong>：个人技术经历</p>
-            <p><strong>网易我的世界中国版我的英雄工作室</strong> <em>程序主开发、副策划</em> <strong>2018.3 ~ 至今</strong>
-                <br> 制作游戏内容拓展玩法，受邀出席网易开发者大会，获得网易我的世界创造者大赛第四名，与网易我的世界部门有外包合作关系
-                <br> <a href="http://mc.163.com/2018_czzds/">获奖作品：失落世界（纪元）</a>
-                <br> 销量王牌：[MH]超能手套
-                <br> 首创：[MH]幸运神树 我的世界第一款纯放置类型组件
-                <br> 孵化网易与外界IP合作的玩法组件
-                <br> <a href="https://mc.163.com/news/20190517/29175_813970.html"> 孵化作品：宝狄火焰岛（地图探险）、宝狄王牌车神（赛车玩法）</a>
-                <br> 华为吉祥物华仔（生物改造）、魅族熊小魅（生物改造）
-                <br> 目前个人正在孵化[MH]失落纪元玩法组件，它是以青少年喜闻乐见的史前恐龙、生物为主要题材，结合MOD与组件玩法，为玩家创造一个与原版生存互不冲突的恐龙世界体验
-                <br> <strong>技术环境</strong>：Json、Python
-                <br> <strong>标签</strong>：沙盒游戏UGC内容策划、开发</p>
-            <p><strong>铭传大学台北校区数媒中心校内实习单位</strong> <em>小组组长</em> <strong>2018.9 ~ 至今</strong>
-                <br> 制作实习单位形象宣传片，传播学院四个系所网站维护顾问，日常处理各系同学解决不了的网站维护问题
-                <br> <strong>技术环境</strong>：After Effect、Motion Graphic
-                <br> <strong>标签</strong>：个人技术经历</p>
-            <hr>
-            <h3 id="-">实习期望</h3>
-            <p><strong>参与游戏公司的策划、运营作业流程</strong> <em>标签：策划、运营</em>
-                <br> 熟悉游戏公司的系统作业，提前接轨产业需求</p>
-            <p><strong>深化实作能力</strong> <em>标签：游戏素质、创意想法</em>
-                <br> 提升个人的游戏素养，精进自身的创意想法，渴望与业界人士进行交流</p>
-            <hr>
-            <h3 id="-">教育</h3>
-            <p><strong>新闻学系</strong> <strong>2016 ~ 至今</strong>
-                <br> 铭传大学</p>
-            <hr>
-            <h3 id="-">兴趣</h3>
-            <ul>
-                <li>
-                    <p><strong>编程</strong>
-                        <br> Python、JavaScript、Html、Css</p>
-                </li>
-                <li>
-                    <p><strong>阅读</strong>
-                        <br> 公众号、新闻、杂志</p>
-                </li>
-                <li>
-                    <p><strong>喜欢儿教娱乐</strong>
-                        <br> 个人因素</p>
-                </li>
-            </ul>
-            <hr> </div>
-    </div>
-</body>
+<body class="">
 
+<div class="container">
+    <div class="resume">
+        <h1 id="林煜哲">林煜哲</h1>
+<h2 id="我的世界中国版开发者--大四学生">我的世界中国版开发者 &amp; 大四学生</h2>
+<blockquote>
+<p><a href="http://mc.163.com/developer_cn/mingxing/20190628/31149_820215.html">MineHero我的英雄工作室</a><br><a href="mailto:51151153@qq.com">51151153@qq.com</a><br>(+86) 186-5081-2250<br>(+886) 984-294-774</p>
+</blockquote>
+<hr>
+<h3 id="技术">技术</h3>
+<ol>
+<li>Python</li>
+<li>After Effect</li>
+<li>InDesign</li>
+<li>新闻采编</li>
+<li>Html5</li>
+<li>PureCss/Less</li>
+<li>会画点像素画</li>
+<li>会做点体素</li>
+</ol>
+<hr>
+<h3 id="经历">经历</h3>
+<p><strong>铭传大学金门校区金铭之声电台建置</strong> <em>CMS+前端</em> <strong>2015.9 ~ 2016.1</strong><br>    开发铭传大学金门校区对外的电台网站，实现往期栏目、在线收听、发布文章的功能，基于 ASP .NET CORE、JavaScript、jQuery、Bootstrap 、IceCast开发<br>    内置一个广播流媒体，<a href="http://radio.km.mcu.edu.tw/">网址</a><br>    <strong>技术环境</strong>：C#、Html、JavaScript、jQuery、Bootstrap、Git</p>
+<p><strong>铭传大学台北校区数媒中心</strong> <em>小组组长</em> <strong>2018.9 ~ 2019.6</strong><br>    配合学校产学合作，通过简单的几何图形加动效制作了三段MG动画视频<br>    在网盘里好像没有什么机会可以展示<br>    <strong>技术环境</strong>：After Effect、Motion Graphic</p>
+<p><strong>MineHero我的英雄策划、开发、校对美工</strong> <em>主要开发者</em> <strong>2018.3 ~ 现在</strong><br>    前期：主要负责策划玩法，当时还未接触Addon，工作室发展方向为PC Java版<br>    中期：主要接触微软Addon，负责对接美工，听取总管的策划需求，制作玩法组件，和美工配合通过《失落纪元》组件拿到开发者大赛第四名<br>    现在：使用ModSDK、Mc Studio、微软Addon，接过工作室的《失落纪元》玩法进行独立策划、开发、以及向美工提出美术需求，会帮忙校正美术素材的不足，减轻美工的工作压力。《失落纪元》作为首款大型远古生物群系组件亮相组件商店，目前已有41W的下载量以及4.6的高平均分。独立接下网易外包《汤姆猫冰雪王国》、《BILIBILI小电视学园》玩法，和工作室另一位开发协同完成《宝狄赛车》（好像联动到期下架了）、《破坏与创造》（堡垒前线手游和MC联动的玩法）。<br>    <strong>技术环境</strong>：Json Addon、ModSDK、Mc Studio</p>
+<hr>
+<h3 id="项目">项目</h3>
+<ul>
+<li><p><strong>失落纪元</strong> <strong>2018 ~ 现在</strong><br>  首款大型远古生物群系组件<br>  4.6评分，41W下载量</p>
+</li>
+<li><p><strong>宝狄赛车</strong> <strong>2019</strong></p>
+</li>
+<li><p><strong>汤姆猫冰雪王国</strong> <strong>2019</strong></p>
+</li>
+<li><p><strong>破坏与创造</strong> <strong>2019</strong></p>
+</li>
+<li><p><strong>BILIBILI电视学院</strong> <strong>2019</strong></p>
+</li>
+<li><p><strong>自己做的一点体素</strong> <strong>2019 ~ 现在</strong><br>  <a href="https://www.instagram.com/horizon_lins/">Instagram</a></p>
+</li>
+</ul>
+<hr>
+<h3 id="演讲">演讲</h3>
+<ul>
+<li><strong>我的世界开发者大会开发者代表</strong> <strong>2019.11.9</strong><br>  <a href="http://cc.163.com/v/5dc8db0c85b7fc737b0c638e/">CC直播链接</a>演讲Mc Studio和工作室的心路历程，以及这一年取得的一些成绩。</li>
+</ul>
+<hr>
+<h3 id="教育">教育</h3>
+<p><strong>新闻学系</strong> <strong>2016 ~ 2019</strong><br>    台湾铭传大学</p>
+<hr>
+<h3 id="兴趣">兴趣</h3>
+<ul>
+<li><p><strong>编程</strong><br>  Python</p>
+</li>
+<li><p><strong>阅读</strong><br>  游戏策划、儿童画册、计算机等书籍，以及科技媒体（例如钛媒体、AI前线之类的）</p>
+</li>
+</ul>
+
+    </div>
+</div>
+
+</body>
 </html>
