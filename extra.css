@@ -1,0 +1,249 @@
+/* The animation code of banner */
+@keyframes banner_alpha_in {
+  from {opacity: 0;}
+  to {opacity: 100%;}
+}
+
+
+/* The element to apply the animation to */
+.banner {
+  animation-name: banner_alpha_in;
+  animation-timing-function: ease-in;
+  animation-duration: 0.65s;
+}
+
+.about_me {
+  position: relative;
+  line-height: 58px;
+  letter-spacing: 0.25rem;
+  font-weight: bold;
+  color: #F59A23;
+  font-size: 1.55rem;
+  z-index: 5;
+}
+
+.about_me_num {
+  position: relative;
+  line-height: 7.5rem;
+  font-weight: bold;
+  color: #D7D7D7;
+  font-size: 13.25rem;
+  left: 5.75rem;
+  z-index: 1;
+}
+
+.about_me_title {
+  position: relative;
+  top: -7.85rem;
+  line-height: 3.25rem;
+  font-weight: bold;
+  font-size: 1.825rem;
+  color: #333333;
+  text-align: justify;
+  text-justify: inter-word;
+  z-index: 2;
+}
+
+.about_me_content {
+  position: relative;
+  top: -2rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.work-title-from-student {
+  font-size: 1.55rem;
+  padding-top: 4rem;
+  letter-spacing: 0.25rem;
+  padding-bottom: 4rem;
+}
+
+.work-title-from-job {
+  position: relative;
+  top: 11rem;
+  font-size: 1.55rem;
+  padding-top: 4rem;
+  letter-spacing: 0.25rem;
+  padding-bottom: 4rem;
+}
+
+.work-area-1 {
+  margin-right: 22rem;
+}
+
+.work-num {
+  position: relative;
+  left: 7.25rem;
+  line-height: 18.5rem;
+  font-weight: bold;
+  color: #D7D7D7;
+  font-size: 13.25rem;
+  z-index: 1;
+}
+
+.work-title-1 {
+  position: relative;
+  right: 8.85rem;
+  top: -8.75rem;
+  z-index: 2;
+}
+
+.work-info-1 {
+  position: relative;
+  right: 8.85rem;
+  top: -2.5rem;
+  z-index: 2;
+  text-align: justify;
+}
+
+.work-title-2 {
+  position: relative;
+  top: 3.25rem;
+  z-index: 2;
+}
+
+.work-info-2 {
+  position: relative;
+  z-index: 2;
+  left: 0.25rem;
+  top: 6rem;
+  text-align: justify;
+}
+
+.work-video-1 {
+  position: relative;
+  top: -2.5rem;
+}
+
+.work-video-2 {
+  position: relative;
+  right: 11rem;
+}
+
+.work-title-3 {
+  position: relative;
+  right: 8.85rem;
+  top: 6.75rem;
+  z-index: 2;
+}
+
+.work-video-3 {
+  position: relative;
+  top: 11.5rem;
+}
+
+.work-info-3 {
+  position: relative;
+  right: 8.85rem;
+  top: 10rem;
+  z-index: 2;
+  text-align: justify;
+}
+
+.work-title-4 {
+  position: relative;
+  top: 8.75rem;
+  z-index: 2;
+}
+
+.work-info-4 {
+  position: relative;
+  top: 12.5rem;
+  z-index: 2;
+  text-align: justify;
+}
+
+.work-job-0 {
+  position: relative;
+  top: 19rem;
+  right: 11rem;
+}
+
+.work-job-1 {
+  position: relative;
+  top: 18.5rem;
+}
+
+.work-job-1-title {
+  position: relative;
+  right: 8.85rem;
+  top: 25.75rem;
+}
+
+.work-job-1-info {
+  position: relative;
+  top: 28.5rem;
+  right: 8.85rem;
+  z-index: 2;
+  text-align: justify;
+}
+
+.work-job-2 {
+  position: relative;
+  top: 34.25rem;
+  right: 8.85rem;
+}
+
+.work-job-2-title {
+  position: relative;
+  top: 27.25rem;
+}
+
+.work-job-2-info {
+  position: relative;
+  top: 32.5rem;
+  z-index: 2;
+  text-align: justify;
+}
+
+.work-what-more-title {
+  padding-top: 2.25rem;
+  padding-right: 56rem;
+  font-size: 1.825rem;
+}
+
+.work-what-more-info {
+  padding-right: 3.75rem;
+}
+
+.event-left {
+  position: relative;
+  right: 18.5rem;
+  width: 30rem;
+}
+
+.event-title {
+  position: relative;
+  font-size: 1.825rem;
+  z-index: 2;
+  letter-spacing: 0.25rem;
+}
+
+.event-title-1 {
+  position: relative;
+  z-index: 2;
+  top: -10.75rem;
+}
+
+.event-info-1 {
+  position: relative;
+  z-index: 2;
+  top: -6.75rem;
+}
+
+.event-1 {
+  position: relative;
+  z-index: 2;
+  top: -5rem;
+  right: -16.75rem;
+}
+
+.event-num {
+  position: relative;
+  top: -11.5rem;
+  font-weight: bold;
+  color: #D7D7D7;
+  font-size: 13.25rem;
+  left: 5.75rem;
+  z-index: 1;
+}
