@@ -206,6 +206,10 @@
   padding-right: 3.75rem;
 }
 
+.work-what-more-info-1 {
+  padding-right: 4.5rem;
+}
+
 .event-left {
   position: relative;
   right: 18.5rem;
@@ -234,7 +238,7 @@
 .event-1 {
   position: relative;
   z-index: 2;
-  top: -5rem;
+  top: -8rem;
   right: -16.75rem;
 }
 
