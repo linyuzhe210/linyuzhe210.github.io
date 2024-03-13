@@ -195,19 +195,22 @@
 }
 
 .work-what-more-title {
+  position: relative;
   padding-top: 2.25rem;
-  padding-right: 54rem;
+  padding-right: 60rem;
   font-size: 1.825rem;
   color: #FFFFFF;
 }
 
 .work-what-more-info {
-  padding-right: 3.75rem;
+  position: relative;
+  padding-right: 18rem;
   color: #FFFFFF;
 }
 
 .work-what-more-info-1 {
-  padding-right: 4.5rem;
+  position: relative;
+  padding-right: 19.5rem;
   color: #FFFFFF;
 }
 
